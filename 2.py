@@ -1,5 +1,3 @@
-str = input('Введите строку: ')
-str_1 = []
-for i in range(2, len(str) + 1, 3):
-    str_1.append(str[i])
-print(*str_1)
+s = input('Введите строку: ')
+for i in range(2, len(s), 3):
+    print(s[i], end='')
